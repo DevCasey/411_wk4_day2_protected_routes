@@ -6,10 +6,12 @@ import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
+
     <BrowserRouter>
       <Navigation />
       <Router />
     </BrowserRouter>
+    
   );
 }
 
